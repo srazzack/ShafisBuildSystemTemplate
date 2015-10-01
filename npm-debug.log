@@ -1,0 +1,838 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.12.1
+3 info using node@v0.12.7
+4 verbose node symlink /usr/local/bin/node
+5 verbose readDependencies loading dependencies from /Users/marsha/Dev/shafi/zenefitsProjects/package.json
+6 warn package.json browserify@0.0.0 No repository field.
+7 warn package.json browserify@0.0.0 No license field.
+8 verbose install where, deps [ '/Users/marsha/Dev/shafi/zenefitsProjects',
+8 verbose install   [ 'jquery',
+8 verbose install     'lodash',
+8 verbose install     'backbone',
+8 verbose install     'browser-sync',
+8 verbose install     'browserify',
+8 verbose install     'browserify-shim',
+8 verbose install     'connect',
+8 verbose install     'gulp',
+8 verbose install     'gulp-autoprefixer',
+8 verbose install     'gulp-cache',
+8 verbose install     'gulp-changed',
+8 verbose install     'gulp-clean',
+8 verbose install     'gulp-concat',
+8 verbose install     'gulp-csso',
+8 verbose install     'gulp-debug',
+8 verbose install     'gulp-filter',
+8 verbose install     'gulp-fingerprint',
+8 verbose install     'gulp-flatten',
+8 verbose install     'gulp-imagemin',
+8 verbose install     'gulp-jscs',
+8 verbose install     'gulp-jshint',
+8 verbose install     'gulp-less',
+8 verbose install     'gulp-load-plugins',
+8 verbose install     'gulp-minify-css',
+8 verbose install     'gulp-notify',
+8 verbose install     'gulp-plumber',
+8 verbose install     'gulp-rename',
+8 verbose install     'gulp-rev',
+8 verbose install     'gulp-size',
+8 verbose install     'gulp-uglify',
+8 verbose install     'gulp-util',
+8 verbose install     'jshint-stylish',
+8 verbose install     'main-bower-files',
+8 verbose install     'mocha',
+8 verbose install     'opn',
+8 verbose install     'partialify',
+8 verbose install     'should',
+8 verbose install     'stringify',
+8 verbose install     'switchery',
+8 verbose install     'vinyl-source-stream' ] ]
+9 verbose install where, peers [ '/Users/marsha/Dev/shafi/zenefitsProjects', [] ]
+10 verbose installManyTop reading for lifecycle /Users/marsha/Dev/shafi/zenefitsProjects/package.json
+11 info preinstall browserify@0.0.0
+12 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/backbone/package.json
+13 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/browser-sync/package.json
+14 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/browserify/package.json
+15 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/browserify-shim/package.json
+16 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/chai/package.json
+17 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/chai-jq/package.json
+18 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/connect/package.json
+19 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp/package.json
+20 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-autoprefixer/package.json
+21 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-cache/package.json
+22 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-changed/package.json
+23 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-clean/package.json
+24 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-concat/package.json
+25 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-consolidate/package.json
+26 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-csso/package.json
+27 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-debug/package.json
+28 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-filter/package.json
+29 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-fingerprint/package.json
+30 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-flatten/package.json
+31 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-gh-pages/package.json
+32 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-iconfont/package.json
+33 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/package.json
+34 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-jade/package.json
+35 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-jscs/package.json
+36 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-jshint/package.json
+37 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-less/package.json
+38 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-load-plugins/package.json
+39 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-minify-css/package.json
+40 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-mocha/package.json
+41 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-mocha-phantomjs/package.json
+42 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-notify/package.json
+43 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-plumber/package.json
+44 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-rename/package.json
+45 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-rev/package.json
+46 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-ruby-sass/package.json
+47 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-size/package.json
+48 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-streamify/package.json
+49 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-uglify/package.json
+50 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-util/package.json
+51 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/jquery/package.json
+52 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/jquery-ui/package.json
+53 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/jshint-stylish/package.json
+54 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/lodash/package.json
+55 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/main-bower-files/package.json
+56 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/mocha/package.json
+57 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/normalize-scss/package.json
+58 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/opn/package.json
+59 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/partialify/package.json
+60 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/require-dir/package.json
+61 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/rimraf/package.json
+62 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/run-sequence/package.json
+63 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/should/package.json
+64 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/stringify/package.json
+65 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/switchery/package.json
+66 verbose installManyTop reading scoped package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/vinyl-source-stream/package.json
+67 info package.json browser-sync@1.9.1 No license field.
+68 info package.json gulp@3.8.6 No license field.
+69 info package.json gulp-clean@0.2.4 No license field.
+70 info package.json gulp-concat@2.4.3 No license field.
+71 info package.json gulp-consolidate@0.1.2 No license field.
+72 info package.json gulp-iconfont@1.0.2 No license field.
+73 info package.json gulp-jade@0.10.0 No license field.
+74 info package.json gulp-jshint@1.9.2 No license field.
+75 info package.json gulp-minify-css@0.3.13 No license field.
+76 info package.json gulp-notify@1.8.0 No license field.
+77 info package.json gulp-plumber@0.6.6 No license field.
+78 info package.json gulp-rename@1.2.0 No license field.
+79 info package.json gulp-util@2.2.20 No license field.
+80 info package.json jquery@2.1.3 No license field.
+81 info package.json mocha@1.21.5 No license field.
+82 info package.json normalize-scss@3.0.1-a license should be a valid SPDX license expression
+83 info package.json require-dir@0.1.0 No license field.
+84 info package.json should@3.3.2 No license field.
+85 info package.json stringify@3.1.0 No license field.
+86 info package.json gulp-streamify@0.0.5 No license field.
+87 info package.json jquery-ui@1.10.5 No license field.
+88 verbose readDependencies loading dependencies from /Users/marsha/Dev/shafi/zenefitsProjects/package.json
+89 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/backbone/package.json
+90 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/browser-sync/package.json
+91 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/browserify/package.json
+92 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/browserify-shim/package.json
+93 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/chai/package.json
+94 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/chai-jq/package.json
+95 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/connect/package.json
+96 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp/package.json
+97 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-autoprefixer/package.json
+98 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-cache/package.json
+99 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-changed/package.json
+100 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-clean/package.json
+101 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-concat/package.json
+102 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-consolidate/package.json
+103 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-csso/package.json
+104 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-debug/package.json
+105 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-filter/package.json
+106 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-fingerprint/package.json
+107 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-flatten/package.json
+108 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-gh-pages/package.json
+109 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-iconfont/package.json
+110 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/package.json
+111 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-jade/package.json
+112 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-jscs/package.json
+113 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-jshint/package.json
+114 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-less/package.json
+115 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-load-plugins/package.json
+116 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-minify-css/package.json
+117 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-mocha/package.json
+118 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-mocha-phantomjs/package.json
+119 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-notify/package.json
+120 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-plumber/package.json
+121 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-rename/package.json
+122 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-rev/package.json
+123 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-ruby-sass/package.json
+124 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-size/package.json
+125 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-streamify/package.json
+126 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-uglify/package.json
+127 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-util/package.json
+128 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/jquery/package.json
+129 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/jquery-ui/package.json
+130 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/jshint-stylish/package.json
+131 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/lodash/package.json
+132 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/main-bower-files/package.json
+133 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/mocha/package.json
+134 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/normalize-scss/package.json
+135 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/opn/package.json
+136 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/partialify/package.json
+137 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/require-dir/package.json
+138 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/rimraf/package.json
+139 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/run-sequence/package.json
+140 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/should/package.json
+141 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/stringify/package.json
+142 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/switchery/package.json
+143 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/vinyl-source-stream/package.json
+144 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/.bin/browser-sync/package.json
+145 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/.bin/browserify/package.json
+146 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/.bin/gulp/package.json
+147 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/.bin/mocha/package.json
+148 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/.bin/opn/package.json
+149 verbose targetResolver reading package data from /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/.bin/rimraf/package.json
+150 verbose already installed skipping gulp-autoprefixer@0.0.10 /Users/marsha/Dev/shafi/zenefitsProjects
+151 verbose already installed skipping gulp-cache@^0.1.11 /Users/marsha/Dev/shafi/zenefitsProjects
+152 verbose already installed skipping gulp-changed@^0.3.0 /Users/marsha/Dev/shafi/zenefitsProjects
+153 verbose already installed skipping gulp-clean@^0.2.4 /Users/marsha/Dev/shafi/zenefitsProjects
+154 verbose already installed skipping gulp-concat@^2.2.0 /Users/marsha/Dev/shafi/zenefitsProjects
+155 verbose already installed skipping gulp-csso@^0.2.8 /Users/marsha/Dev/shafi/zenefitsProjects
+156 verbose already installed skipping gulp-debug@^0.3.0 /Users/marsha/Dev/shafi/zenefitsProjects
+157 verbose already installed skipping gulp-filter@^1.0.1 /Users/marsha/Dev/shafi/zenefitsProjects
+158 verbose already installed skipping gulp-fingerprint@^0.1.0 /Users/marsha/Dev/shafi/zenefitsProjects
+159 verbose already installed skipping gulp-flatten@0.0.2 /Users/marsha/Dev/shafi/zenefitsProjects
+160 verbose already installed skipping gulp-imagemin@^1.0.0 /Users/marsha/Dev/shafi/zenefitsProjects
+161 verbose already installed skipping gulp-jscs@^1.2 /Users/marsha/Dev/shafi/zenefitsProjects
+162 verbose already installed skipping gulp-jshint@^1.8.4 /Users/marsha/Dev/shafi/zenefitsProjects
+163 verbose already installed skipping gulp-less@^1.2.3 /Users/marsha/Dev/shafi/zenefitsProjects
+164 verbose already installed skipping gulp-load-plugins@^0.5.1 /Users/marsha/Dev/shafi/zenefitsProjects
+165 verbose already installed skipping gulp-minify-css@^0.3.7 /Users/marsha/Dev/shafi/zenefitsProjects
+166 verbose already installed skipping gulp-notify@^1.5.1 /Users/marsha/Dev/shafi/zenefitsProjects
+167 verbose already installed skipping gulp-plumber@^0.6.6 /Users/marsha/Dev/shafi/zenefitsProjects
+168 verbose already installed skipping gulp-rename@^1.2.0 /Users/marsha/Dev/shafi/zenefitsProjects
+169 verbose already installed skipping gulp-rev@^0.4.0 /Users/marsha/Dev/shafi/zenefitsProjects
+170 verbose already installed skipping gulp-size@^0.3.1 /Users/marsha/Dev/shafi/zenefitsProjects
+171 verbose already installed skipping gulp-uglify@^1.0.0 /Users/marsha/Dev/shafi/zenefitsProjects
+172 verbose already installed skipping gulp-util@^2.2.14 /Users/marsha/Dev/shafi/zenefitsProjects
+173 verbose already installed skipping jshint-stylish@^0.2.0 /Users/marsha/Dev/shafi/zenefitsProjects
+174 verbose already installed skipping main-bower-files@^2.0.0 /Users/marsha/Dev/shafi/zenefitsProjects
+175 verbose already installed skipping mocha@^1.19.0 /Users/marsha/Dev/shafi/zenefitsProjects
+176 verbose already installed skipping opn@^0.1.1 /Users/marsha/Dev/shafi/zenefitsProjects
+177 verbose already installed skipping partialify@^3.1.1 /Users/marsha/Dev/shafi/zenefitsProjects
+178 verbose already installed skipping should@^3.3.1 /Users/marsha/Dev/shafi/zenefitsProjects
+179 verbose already installed skipping stringify@^3.0.0 /Users/marsha/Dev/shafi/zenefitsProjects
+180 verbose already installed skipping switchery@0.0.2 /Users/marsha/Dev/shafi/zenefitsProjects
+181 verbose already installed skipping vinyl-source-stream@^0.1.1 /Users/marsha/Dev/shafi/zenefitsProjects
+182 verbose already installed skipping jquery@^2.1.1 /Users/marsha/Dev/shafi/zenefitsProjects
+183 verbose already installed skipping lodash@^2.4.1 /Users/marsha/Dev/shafi/zenefitsProjects
+184 verbose already installed skipping backbone@^1.1.2 /Users/marsha/Dev/shafi/zenefitsProjects
+185 verbose already installed skipping browser-sync@^1.7.2 /Users/marsha/Dev/shafi/zenefitsProjects
+186 verbose already installed skipping browserify@^4.1.5 /Users/marsha/Dev/shafi/zenefitsProjects
+187 verbose already installed skipping browserify-shim@^3.7.0 /Users/marsha/Dev/shafi/zenefitsProjects
+188 verbose already installed skipping connect@^2.16.2 /Users/marsha/Dev/shafi/zenefitsProjects
+189 verbose already installed skipping gulp@3.8.6 /Users/marsha/Dev/shafi/zenefitsProjects
+190 silly install resolved []
+191 info build /Users/marsha/Dev/shafi/zenefitsProjects
+192 info linkStuff browserify@0.0.0
+193 silly linkStuff browserify@0.0.0 has /Users/marsha/Dev/shafi as its parent node_modules
+194 verbose linkBins browserify@0.0.0
+195 verbose linkMans browserify@0.0.0
+196 verbose rebuildBundles browserify@0.0.0
+197 verbose rebuildBundles [ '.bin',
+197 verbose rebuildBundles   'backbone',
+197 verbose rebuildBundles   'browser-sync',
+197 verbose rebuildBundles   'browserify',
+197 verbose rebuildBundles   'browserify-shim',
+197 verbose rebuildBundles   'chai',
+197 verbose rebuildBundles   'chai-jq',
+197 verbose rebuildBundles   'connect',
+197 verbose rebuildBundles   'gulp',
+197 verbose rebuildBundles   'gulp-autoprefixer',
+197 verbose rebuildBundles   'gulp-cache',
+197 verbose rebuildBundles   'gulp-changed',
+197 verbose rebuildBundles   'gulp-clean',
+197 verbose rebuildBundles   'gulp-concat',
+197 verbose rebuildBundles   'gulp-consolidate',
+197 verbose rebuildBundles   'gulp-csso',
+197 verbose rebuildBundles   'gulp-debug',
+197 verbose rebuildBundles   'gulp-filter',
+197 verbose rebuildBundles   'gulp-fingerprint',
+197 verbose rebuildBundles   'gulp-flatten',
+197 verbose rebuildBundles   'gulp-gh-pages',
+197 verbose rebuildBundles   'gulp-iconfont',
+197 verbose rebuildBundles   'gulp-imagemin',
+197 verbose rebuildBundles   'gulp-jade',
+197 verbose rebuildBundles   'gulp-jscs',
+197 verbose rebuildBundles   'gulp-jshint',
+197 verbose rebuildBundles   'gulp-less',
+197 verbose rebuildBundles   'gulp-load-plugins',
+197 verbose rebuildBundles   'gulp-minify-css',
+197 verbose rebuildBundles   'gulp-mocha',
+197 verbose rebuildBundles   'gulp-mocha-phantomjs',
+197 verbose rebuildBundles   'gulp-notify',
+197 verbose rebuildBundles   'gulp-plumber',
+197 verbose rebuildBundles   'gulp-rename',
+197 verbose rebuildBundles   'gulp-rev',
+197 verbose rebuildBundles   'gulp-ruby-sass',
+197 verbose rebuildBundles   'gulp-size',
+197 verbose rebuildBundles   'gulp-streamify',
+197 verbose rebuildBundles   'gulp-uglify',
+197 verbose rebuildBundles   'gulp-util',
+197 verbose rebuildBundles   'jquery',
+197 verbose rebuildBundles   'jquery-ui',
+197 verbose rebuildBundles   'jshint-stylish',
+197 verbose rebuildBundles   'lodash',
+197 verbose rebuildBundles   'main-bower-files',
+197 verbose rebuildBundles   'mocha',
+197 verbose rebuildBundles   'normalize-scss',
+197 verbose rebuildBundles   'opn',
+197 verbose rebuildBundles   'partialify',
+197 verbose rebuildBundles   'require-dir',
+197 verbose rebuildBundles   'rimraf',
+197 verbose rebuildBundles   'run-sequence',
+197 verbose rebuildBundles   'should',
+197 verbose rebuildBundles   'stringify',
+197 verbose rebuildBundles   'switchery',
+197 verbose rebuildBundles   'vinyl-source-stream' ]
+198 verbose rebuild bundle /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/chai
+199 info build /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/chai
+200 info preinstall chai@1.10.0
+201 info linkStuff chai@1.10.0
+202 silly linkStuff chai@1.10.0 has /Users/marsha/Dev/shafi/zenefitsProjects/node_modules as its parent node_modules
+203 verbose linkBins chai@1.10.0
+204 verbose linkMans chai@1.10.0
+205 verbose rebuildBundles chai@1.10.0
+206 verbose rebuildBundles [ 'assertion-error', 'deep-eql' ]
+207 info install chai@1.10.0
+208 info postinstall chai@1.10.0
+209 verbose rebuild bundle /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/chai-jq
+210 info build /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/chai-jq
+211 info preinstall chai-jq@0.0.8
+212 info linkStuff chai-jq@0.0.8
+213 silly linkStuff chai-jq@0.0.8 has /Users/marsha/Dev/shafi/zenefitsProjects/node_modules as its parent node_modules
+214 verbose linkBins chai-jq@0.0.8
+215 verbose linkMans chai-jq@0.0.8
+216 verbose rebuildBundles chai-jq@0.0.8
+217 info install chai-jq@0.0.8
+218 info postinstall chai-jq@0.0.8
+219 verbose rebuild bundle /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-consolidate
+220 info build /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-consolidate
+221 info preinstall gulp-consolidate@0.1.2
+222 info linkStuff gulp-consolidate@0.1.2
+223 silly linkStuff gulp-consolidate@0.1.2 has /Users/marsha/Dev/shafi/zenefitsProjects/node_modules as its parent node_modules
+224 verbose linkBins gulp-consolidate@0.1.2
+225 verbose linkMans gulp-consolidate@0.1.2
+226 verbose rebuildBundles gulp-consolidate@0.1.2
+227 verbose rebuildBundles [ 'consolidate', 'map-stream' ]
+228 info install gulp-consolidate@0.1.2
+229 info postinstall gulp-consolidate@0.1.2
+230 verbose rebuild bundle /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-gh-pages
+231 info build /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-gh-pages
+232 info preinstall gulp-gh-pages@0.4.0
+233 info linkStuff gulp-gh-pages@0.4.0
+234 silly linkStuff gulp-gh-pages@0.4.0 has /Users/marsha/Dev/shafi/zenefitsProjects/node_modules as its parent node_modules
+235 verbose linkBins gulp-gh-pages@0.4.0
+236 verbose linkMans gulp-gh-pages@0.4.0
+237 verbose rebuildBundles gulp-gh-pages@0.4.0
+238 verbose rebuildBundles [ 'gift',
+238 verbose rebuildBundles   'git-remote-origin-url',
+238 verbose rebuildBundles   'gulp-util',
+238 verbose rebuildBundles   'through2',
+238 verbose rebuildBundles   'when' ]
+239 info install gulp-gh-pages@0.4.0
+240 info postinstall gulp-gh-pages@0.4.0
+241 verbose rebuild bundle /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-iconfont
+242 info build /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-iconfont
+243 info preinstall gulp-iconfont@1.0.2
+244 info linkStuff gulp-iconfont@1.0.2
+245 silly linkStuff gulp-iconfont@1.0.2 has /Users/marsha/Dev/shafi/zenefitsProjects/node_modules as its parent node_modules
+246 verbose linkBins gulp-iconfont@1.0.2
+247 verbose linkMans gulp-iconfont@1.0.2
+248 verbose rebuildBundles gulp-iconfont@1.0.2
+249 verbose rebuildBundles [ 'gulp-svg2ttf',
+249 verbose rebuildBundles   'gulp-svgicons2svgfont',
+249 verbose rebuildBundles   'gulp-ttf2eot',
+249 verbose rebuildBundles   'gulp-ttf2woff',
+249 verbose rebuildBundles   'gulp-util',
+249 verbose rebuildBundles   'plexer' ]
+250 info install gulp-iconfont@1.0.2
+251 info postinstall gulp-iconfont@1.0.2
+252 verbose rebuild bundle /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-jade
+253 info build /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-jade
+254 info preinstall gulp-jade@0.10.0
+255 info linkStuff gulp-jade@0.10.0
+256 silly linkStuff gulp-jade@0.10.0 has /Users/marsha/Dev/shafi/zenefitsProjects/node_modules as its parent node_modules
+257 verbose linkBins gulp-jade@0.10.0
+258 verbose linkMans gulp-jade@0.10.0
+259 verbose rebuildBundles gulp-jade@0.10.0
+260 verbose rebuildBundles [ '.bin', 'gulp-util', 'jade', 'through2', 'xtend' ]
+261 info install gulp-jade@0.10.0
+262 info postinstall gulp-jade@0.10.0
+263 verbose rebuild bundle /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-mocha
+264 info build /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-mocha
+265 info preinstall gulp-mocha@2.1.3
+266 info linkStuff gulp-mocha@2.1.3
+267 silly linkStuff gulp-mocha@2.1.3 has /Users/marsha/Dev/shafi/zenefitsProjects/node_modules as its parent node_modules
+268 verbose linkBins gulp-mocha@2.1.3
+269 verbose linkMans gulp-mocha@2.1.3
+270 verbose rebuildBundles gulp-mocha@2.1.3
+271 verbose rebuildBundles [ 'gulp-util', 'plur', 'resolve-from', 'temp', 'through' ]
+272 info install gulp-mocha@2.1.3
+273 info postinstall gulp-mocha@2.1.3
+274 verbose rebuild bundle /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-mocha-phantomjs
+275 info build /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-mocha-phantomjs
+276 info preinstall gulp-mocha-phantomjs@0.5.3
+277 info linkStuff gulp-mocha-phantomjs@0.5.3
+278 silly linkStuff gulp-mocha-phantomjs@0.5.3 has /Users/marsha/Dev/shafi/zenefitsProjects/node_modules as its parent node_modules
+279 verbose linkBins gulp-mocha-phantomjs@0.5.3
+280 verbose linkMans gulp-mocha-phantomjs@0.5.3
+281 verbose rebuildBundles gulp-mocha-phantomjs@0.5.3
+282 verbose rebuildBundles [ '.bin', 'gulp-util', 'mocha-phantomjs', 'phantomjs', 'through2' ]
+283 info install gulp-mocha-phantomjs@0.5.3
+284 info postinstall gulp-mocha-phantomjs@0.5.3
+285 verbose rebuild bundle /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-ruby-sass
+286 info build /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-ruby-sass
+287 info preinstall gulp-ruby-sass@0.7.1
+288 info linkStuff gulp-ruby-sass@0.7.1
+289 silly linkStuff gulp-ruby-sass@0.7.1 has /Users/marsha/Dev/shafi/zenefitsProjects/node_modules as its parent node_modules
+290 verbose linkBins gulp-ruby-sass@0.7.1
+291 verbose linkMans gulp-ruby-sass@0.7.1
+292 verbose rebuildBundles gulp-ruby-sass@0.7.1
+293 verbose rebuildBundles [ '.bin',
+293 verbose rebuildBundles   'chalk',
+293 verbose rebuildBundles   'dargs',
+293 verbose rebuildBundles   'each-async',
+293 verbose rebuildBundles   'glob',
+293 verbose rebuildBundles   'gulp-intermediate',
+293 verbose rebuildBundles   'gulp-util',
+293 verbose rebuildBundles   'slash',
+293 verbose rebuildBundles   'win-spawn' ]
+294 info install gulp-ruby-sass@0.7.1
+295 info postinstall gulp-ruby-sass@0.7.1
+296 verbose rebuild bundle /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-streamify
+297 info build /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-streamify
+298 info preinstall gulp-streamify@0.0.5
+299 info linkStuff gulp-streamify@0.0.5
+300 silly linkStuff gulp-streamify@0.0.5 has /Users/marsha/Dev/shafi/zenefitsProjects/node_modules as its parent node_modules
+301 verbose linkBins gulp-streamify@0.0.5
+302 verbose linkMans gulp-streamify@0.0.5
+303 verbose rebuildBundles gulp-streamify@0.0.5
+304 verbose rebuildBundles [ 'gulp-util', 'plexer', 'readable-stream' ]
+305 info install gulp-streamify@0.0.5
+306 info postinstall gulp-streamify@0.0.5
+307 verbose rebuild bundle /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/jquery-ui
+308 info build /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/jquery-ui
+309 info preinstall jquery-ui@1.10.5
+310 info linkStuff jquery-ui@1.10.5
+311 silly linkStuff jquery-ui@1.10.5 has /Users/marsha/Dev/shafi/zenefitsProjects/node_modules as its parent node_modules
+312 verbose linkBins jquery-ui@1.10.5
+313 verbose linkMans jquery-ui@1.10.5
+314 verbose rebuildBundles jquery-ui@1.10.5
+315 info install jquery-ui@1.10.5
+316 info postinstall jquery-ui@1.10.5
+317 verbose rebuild bundle /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/normalize-scss
+318 info build /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/normalize-scss
+319 info preinstall normalize-scss@3.0.1-a
+320 info linkStuff normalize-scss@3.0.1-a
+321 silly linkStuff normalize-scss@3.0.1-a has /Users/marsha/Dev/shafi/zenefitsProjects/node_modules as its parent node_modules
+322 verbose linkBins normalize-scss@3.0.1-a
+323 verbose linkMans normalize-scss@3.0.1-a
+324 verbose rebuildBundles normalize-scss@3.0.1-a
+325 info install normalize-scss@3.0.1-a
+326 info postinstall normalize-scss@3.0.1-a
+327 verbose rebuild bundle /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/require-dir
+328 info build /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/require-dir
+329 info preinstall require-dir@0.1.0
+330 info linkStuff require-dir@0.1.0
+331 silly linkStuff require-dir@0.1.0 has /Users/marsha/Dev/shafi/zenefitsProjects/node_modules as its parent node_modules
+332 verbose linkBins require-dir@0.1.0
+333 verbose linkMans require-dir@0.1.0
+334 verbose rebuildBundles require-dir@0.1.0
+335 info install require-dir@0.1.0
+336 info postinstall require-dir@0.1.0
+337 verbose rebuild bundle /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/rimraf
+338 info build /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/rimraf
+339 info preinstall rimraf@2.4.2
+340 info linkStuff rimraf@2.4.2
+341 silly linkStuff rimraf@2.4.2 has /Users/marsha/Dev/shafi/zenefitsProjects/node_modules as its parent node_modules
+342 verbose linkBins rimraf@2.4.2
+343 verbose link bins [ { rimraf: './bin.js' },
+343 verbose link bins   '/Users/marsha/Dev/shafi/zenefitsProjects/node_modules/.bin',
+343 verbose link bins   false ]
+344 verbose linkMans rimraf@2.4.2
+345 verbose rebuildBundles rimraf@2.4.2
+346 verbose rebuildBundles [ 'glob' ]
+347 silly gentlyRm /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/.bin/rimraf is being purged
+348 verbose gentlyRm don't care about contents; nuking /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/.bin/rimraf
+349 silly vacuum-fs purging /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/.bin/rimraf
+350 silly vacuum-fs quitting because other entries in /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/.bin
+351 info install rimraf@2.4.2
+352 info postinstall rimraf@2.4.2
+353 verbose rebuild bundle /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/run-sequence
+354 info build /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/run-sequence
+355 info preinstall run-sequence@1.1.2
+356 info linkStuff run-sequence@1.1.2
+357 silly linkStuff run-sequence@1.1.2 has /Users/marsha/Dev/shafi/zenefitsProjects/node_modules as its parent node_modules
+358 verbose linkBins run-sequence@1.1.2
+359 verbose linkMans run-sequence@1.1.2
+360 verbose rebuildBundles run-sequence@1.1.2
+361 verbose rebuildBundles [ 'chalk' ]
+362 info install run-sequence@1.1.2
+363 info postinstall run-sequence@1.1.2
+364 info install browserify@0.0.0
+365 info postinstall browserify@0.0.0
+366 info prepublish browserify@0.0.0
+367 verbose validateInstall loading /Users/marsha/Dev/shafi/zenefitsProjects/package.json for validation
+368 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-mocha requires mocha@'^2.0.1' but will load
+368 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/mocha,
+368 warn unmet dependency which is version 1.21.5
+369 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/jshint-stylish/node_modules/log-symbols requires chalk@'^1.0.0' but will load
+369 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/jshint-stylish/node_modules/chalk,
+369 warn unmet dependency which is version 0.4.0
+370 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/browserify/node_modules/duplexer2 requires readable-stream@'~1.1.9' but will load
+370 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/browserify/node_modules/readable-stream,
+370 warn unmet dependency which is version 1.0.33
+371 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/browserify/node_modules/browser-pack/node_modules/through2/node_modules/readable-stream requires string_decoder@'~0.10.x' but will load
+371 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/browserify/node_modules/string_decoder,
+371 warn unmet dependency which is version 0.0.1
+372 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/browserify/node_modules/module-deps/node_modules/stream-combiner2/node_modules/through2/node_modules/readable-stream requires string_decoder@'~0.10.x' but will load
+372 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/browserify/node_modules/string_decoder,
+372 warn unmet dependency which is version 0.0.1
+373 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/browserify/node_modules/labeled-stream-splicer/node_modules/stream-splicer requires readable-stream@'^1.1.13-1' but will load
+373 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/browserify/node_modules/readable-stream,
+373 warn unmet dependency which is version 1.0.33
+374 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/browserify/node_modules/labeled-stream-splicer/node_modules/stream-splicer/node_modules/readable-wrap requires readable-stream@'^1.1.13-1' but will load
+374 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/browserify/node_modules/readable-stream,
+374 warn unmet dependency which is version 1.0.33
+375 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp/node_modules/gulp-util requires chalk@'^1.0.0' but will load
+375 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp/node_modules/chalk,
+375 warn unmet dependency which is version 0.5.1
+376 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp/node_modules/gulp-util requires minimist@'^1.1.0' but will load
+376 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp/node_modules/minimist,
+376 warn unmet dependency which is version 0.2.0
+377 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp/node_modules/gulp-util/node_modules/dateformat/node_modules/meow requires minimist@'^1.1.0' but will load
+377 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp/node_modules/minimist,
+377 warn unmet dependency which is version 0.2.0
+378 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp/node_modules/gulp-util/node_modules/dateformat/node_modules/meow/node_modules/indent-string requires minimist@'^1.1.0' but will load
+378 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp/node_modules/minimist,
+378 warn unmet dependency which is version 0.2.0
+379 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp/node_modules/liftoff/node_modules/rechoir requires resolve@'^1.1.6' but will load
+379 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp/node_modules/liftoff/node_modules/resolve,
+379 warn unmet dependency which is version 0.7.4
+380 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-changed/node_modules/gulp-util requires through2@'^2.0.0' but will load
+380 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-changed/node_modules/through2,
+380 warn unmet dependency which is version 0.4.2
+381 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-notify/node_modules/gulp-util requires lodash.template@'^3.0.0' but will load
+381 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-notify/node_modules/lodash.template,
+381 warn unmet dependency which is version 2.4.1
+382 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-size/node_modules/gulp-util requires chalk@'^1.0.0' but will load
+382 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-size/node_modules/chalk,
+382 warn unmet dependency which is version 0.4.0
+383 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-size/node_modules/gulp-util requires through2@'^2.0.0' but will load
+383 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-size/node_modules/through2,
+383 warn unmet dependency which is version 0.4.2
+384 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-build/node_modules/decompress/node_modules/vinyl-assign requires object-assign@'^3.0.0' but will load
+384 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/object-assign,
+384 warn unmet dependency which is version 1.0.0
+385 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-build/node_modules/decompress/node_modules/decompress-tar/node_modules/strip-dirs/node_modules/sum-up requires chalk@'^1.0.0' but will load
+385 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/chalk,
+385 warn unmet dependency which is version 0.5.1
+386 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-build/node_modules/decompress/node_modules/decompress-tarbz2/node_modules/strip-dirs/node_modules/sum-up requires chalk@'^1.0.0' but will load
+386 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/chalk,
+386 warn unmet dependency which is version 0.5.1
+387 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-build/node_modules/decompress/node_modules/decompress-unzip/node_modules/strip-dirs/node_modules/sum-up requires chalk@'^1.0.0' but will load
+387 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/chalk,
+387 warn unmet dependency which is version 0.5.1
+388 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-build/node_modules/download/node_modules/decompress-tar requires through2@'^0.6.1' but will load
+388 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-build/node_modules/download/node_modules/through2,
+388 warn unmet dependency which is version 2.0.0
+389 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-build/node_modules/download/node_modules/decompress-tarbz2 requires through2@'^0.6.1' but will load
+389 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-build/node_modules/download/node_modules/through2,
+389 warn unmet dependency which is version 2.0.0
+390 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-build/node_modules/download/node_modules/decompress-targz requires through2@'^0.6.1' but will load
+390 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-build/node_modules/download/node_modules/through2,
+390 warn unmet dependency which is version 2.0.0
+391 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-build/node_modules/download/node_modules/decompress-unzip requires through2@'^0.6.1' but will load
+391 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-build/node_modules/download/node_modules/through2,
+391 warn unmet dependency which is version 2.0.0
+392 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-build/node_modules/download/node_modules/gulp-decompress/node_modules/archive-type/node_modules/file-type requires meow@'^3.3.0' but will load
+392 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/meow,
+392 warn unmet dependency which is version 2.1.0
+393 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download/node_modules/decompress-tar requires through2@'^0.6.1' but will load
+393 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download/node_modules/through2,
+393 warn unmet dependency which is version 2.0.0
+394 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download/node_modules/decompress-tarbz2 requires through2@'^0.6.1' but will load
+394 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download/node_modules/through2,
+394 warn unmet dependency which is version 2.0.0
+395 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download/node_modules/decompress-targz requires through2@'^0.6.1' but will load
+395 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download/node_modules/through2,
+395 warn unmet dependency which is version 2.0.0
+396 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download/node_modules/decompress-unzip requires through2@'^0.6.1' but will load
+396 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download/node_modules/through2,
+396 warn unmet dependency which is version 2.0.0
+397 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/decompress requires get-stdin@'^4.0.1' but will load
+397 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/get-stdin,
+397 warn unmet dependency which is version 3.0.2
+398 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/decompress requires meow@'^3.0.0' but will load
+398 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/meow,
+398 warn unmet dependency which is version 2.1.0
+399 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/decompress requires vinyl-fs@'^1.0.0' but will load
+399 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/vinyl-fs,
+399 warn unmet dependency which is version 0.3.13
+400 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/archive-type/node_modules/file-type requires meow@'^3.3.0' but will load
+400 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/meow,
+400 warn unmet dependency which is version 2.1.0
+401 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/buffer-to-vinyl/node_modules/file-type requires meow@'^3.3.0' but will load
+401 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/meow,
+401 warn unmet dependency which is version 2.1.0
+402 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/decompress/node_modules/decompress-tar/node_modules/strip-dirs requires chalk@'^1.0.0' but will load
+402 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/chalk,
+402 warn unmet dependency which is version 0.5.1
+403 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/decompress/node_modules/decompress-tar/node_modules/strip-dirs requires get-stdin@'^4.0.1' but will load
+403 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/get-stdin,
+403 warn unmet dependency which is version 3.0.2
+404 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/decompress/node_modules/decompress-tar/node_modules/strip-dirs/node_modules/sum-up requires chalk@'^1.0.0' but will load
+404 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/chalk,
+404 warn unmet dependency which is version 0.5.1
+405 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/decompress/node_modules/decompress-tarbz2/node_modules/strip-dirs requires chalk@'^1.0.0' but will load
+405 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/chalk,
+405 warn unmet dependency which is version 0.5.1
+406 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/decompress/node_modules/decompress-tarbz2/node_modules/strip-dirs requires get-stdin@'^4.0.1' but will load
+406 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/get-stdin,
+406 warn unmet dependency which is version 3.0.2
+407 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/decompress/node_modules/decompress-tarbz2/node_modules/strip-dirs/node_modules/sum-up requires chalk@'^1.0.0' but will load
+407 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/chalk,
+407 warn unmet dependency which is version 0.5.1
+408 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/decompress/node_modules/decompress-targz/node_modules/strip-dirs requires chalk@'^1.0.0' but will load
+408 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/chalk,
+408 warn unmet dependency which is version 0.5.1
+409 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/decompress/node_modules/decompress-targz/node_modules/strip-dirs requires get-stdin@'^4.0.1' but will load
+409 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/get-stdin,
+409 warn unmet dependency which is version 3.0.2
+410 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/decompress/node_modules/decompress-targz/node_modules/strip-dirs/node_modules/sum-up requires chalk@'^1.0.0' but will load
+410 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/chalk,
+410 warn unmet dependency which is version 0.5.1
+411 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/decompress/node_modules/decompress-unzip/node_modules/strip-dirs requires chalk@'^1.0.0' but will load
+411 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/chalk,
+411 warn unmet dependency which is version 0.5.1
+412 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/decompress/node_modules/decompress-unzip/node_modules/strip-dirs requires get-stdin@'^4.0.1' but will load
+412 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/get-stdin,
+412 warn unmet dependency which is version 3.0.2
+413 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/decompress/node_modules/decompress-unzip/node_modules/strip-dirs/node_modules/sum-up requires chalk@'^1.0.0' but will load
+413 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/chalk,
+413 warn unmet dependency which is version 0.5.1
+414 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/logalot/node_modules/squeak/node_modules/lpad-align requires get-stdin@'^4.0.1' but will load
+414 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/get-stdin,
+414 warn unmet dependency which is version 3.0.2
+415 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/logalot/node_modules/squeak/node_modules/lpad-align requires meow@'^3.3.0' but will load
+415 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/meow,
+415 warn unmet dependency which is version 2.1.0
+416 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-build/node_modules/decompress requires through2@'^0.6.1' but will load
+416 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/through2,
+416 warn unmet dependency which is version 2.0.0
+417 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-build/node_modules/download requires through2@'^0.6.1' but will load
+417 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/through2,
+417 warn unmet dependency which is version 2.0.0
+418 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-build/node_modules/decompress/node_modules/decompress-unzip requires through2@'^0.6.1' but will load
+418 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/through2,
+418 warn unmet dependency which is version 2.0.0
+419 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-build/node_modules/decompress/node_modules/vinyl-assign requires object-assign@'^3.0.0' but will load
+419 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/object-assign,
+419 warn unmet dependency which is version 1.0.0
+420 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-build/node_modules/decompress/node_modules/decompress-tar/node_modules/strip-dirs/node_modules/sum-up requires chalk@'^1.0.0' but will load
+420 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/chalk,
+420 warn unmet dependency which is version 0.5.1
+421 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-build/node_modules/decompress/node_modules/decompress-tarbz2/node_modules/strip-dirs/node_modules/sum-up requires chalk@'^1.0.0' but will load
+421 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/chalk,
+421 warn unmet dependency which is version 0.5.1
+422 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-build/node_modules/decompress/node_modules/decompress-unzip/node_modules/strip-dirs/node_modules/sum-up requires chalk@'^1.0.0' but will load
+422 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/chalk,
+422 warn unmet dependency which is version 0.5.1
+423 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-build/node_modules/download/node_modules/decompress-tar requires through2@'^0.6.1' but will load
+423 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/through2,
+423 warn unmet dependency which is version 2.0.0
+424 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-build/node_modules/download/node_modules/decompress-tarbz2 requires through2@'^0.6.1' but will load
+424 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/through2,
+424 warn unmet dependency which is version 2.0.0
+425 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-build/node_modules/download/node_modules/decompress-targz requires through2@'^0.6.1' but will load
+425 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/through2,
+425 warn unmet dependency which is version 2.0.0
+426 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-build/node_modules/download/node_modules/decompress-unzip requires through2@'^0.6.1' but will load
+426 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/through2,
+426 warn unmet dependency which is version 2.0.0
+427 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-build/node_modules/download/node_modules/gulp-decompress/node_modules/archive-type/node_modules/file-type requires meow@'^3.3.0' but will load
+427 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/meow,
+427 warn unmet dependency which is version 2.1.0
+428 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/download requires through2@'^0.6.1' but will load
+428 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/through2,
+428 warn unmet dependency which is version 2.0.0
+429 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress-tar requires through2@'^0.6.1' but will load
+429 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/through2,
+429 warn unmet dependency which is version 2.0.0
+430 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress-tarbz2 requires through2@'^0.6.1' but will load
+430 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/through2,
+430 warn unmet dependency which is version 2.0.0
+431 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress-targz requires through2@'^0.6.1' but will load
+431 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/through2,
+431 warn unmet dependency which is version 2.0.0
+432 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress-unzip requires through2@'^0.6.1' but will load
+432 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/through2,
+432 warn unmet dependency which is version 2.0.0
+433 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/decompress requires get-stdin@'^4.0.1' but will load
+433 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/get-stdin,
+433 warn unmet dependency which is version 3.0.2
+434 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/decompress requires meow@'^3.0.0' but will load
+434 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/meow,
+434 warn unmet dependency which is version 2.1.0
+435 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/decompress requires vinyl-fs@'^1.0.0' but will load
+435 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/vinyl-fs,
+435 warn unmet dependency which is version 0.3.13
+436 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/archive-type/node_modules/file-type requires meow@'^3.3.0' but will load
+436 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/meow,
+436 warn unmet dependency which is version 2.1.0
+437 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/decompress/node_modules/decompress-tar/node_modules/strip-dirs requires chalk@'^1.0.0' but will load
+437 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/chalk,
+437 warn unmet dependency which is version 0.5.1
+438 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/decompress/node_modules/decompress-tar/node_modules/strip-dirs requires get-stdin@'^4.0.1' but will load
+438 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/get-stdin,
+438 warn unmet dependency which is version 3.0.2
+439 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/decompress/node_modules/decompress-tar/node_modules/strip-dirs/node_modules/sum-up requires chalk@'^1.0.0' but will load
+439 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/chalk,
+439 warn unmet dependency which is version 0.5.1
+440 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/decompress/node_modules/decompress-tarbz2/node_modules/strip-dirs requires chalk@'^1.0.0' but will load
+440 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/chalk,
+440 warn unmet dependency which is version 0.5.1
+441 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/decompress/node_modules/decompress-tarbz2/node_modules/strip-dirs requires get-stdin@'^4.0.1' but will load
+441 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/get-stdin,
+441 warn unmet dependency which is version 3.0.2
+442 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/decompress/node_modules/decompress-tarbz2/node_modules/strip-dirs/node_modules/sum-up requires chalk@'^1.0.0' but will load
+442 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/chalk,
+442 warn unmet dependency which is version 0.5.1
+443 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/decompress/node_modules/decompress-targz/node_modules/strip-dirs requires chalk@'^1.0.0' but will load
+443 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/chalk,
+443 warn unmet dependency which is version 0.5.1
+444 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/decompress/node_modules/decompress-targz/node_modules/strip-dirs requires get-stdin@'^4.0.1' but will load
+444 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/get-stdin,
+444 warn unmet dependency which is version 3.0.2
+445 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/decompress/node_modules/decompress-targz/node_modules/strip-dirs/node_modules/sum-up requires chalk@'^1.0.0' but will load
+445 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/chalk,
+445 warn unmet dependency which is version 0.5.1
+446 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/decompress/node_modules/decompress-unzip/node_modules/strip-dirs requires chalk@'^1.0.0' but will load
+446 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/chalk,
+446 warn unmet dependency which is version 0.5.1
+447 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/decompress/node_modules/decompress-unzip/node_modules/strip-dirs requires get-stdin@'^4.0.1' but will load
+447 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/get-stdin,
+447 warn unmet dependency which is version 3.0.2
+448 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/decompress/node_modules/decompress-unzip/node_modules/strip-dirs/node_modules/sum-up requires chalk@'^1.0.0' but will load
+448 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/chalk,
+448 warn unmet dependency which is version 0.5.1
+449 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-build/node_modules/decompress/node_modules/vinyl-assign requires object-assign@'^3.0.0' but will load
+449 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/object-assign,
+449 warn unmet dependency which is version 1.0.0
+450 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-build/node_modules/decompress/node_modules/decompress-tar/node_modules/strip-dirs/node_modules/sum-up requires chalk@'^1.0.0' but will load
+450 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/chalk,
+450 warn unmet dependency which is version 0.5.1
+451 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-build/node_modules/decompress/node_modules/decompress-tarbz2/node_modules/strip-dirs/node_modules/sum-up requires chalk@'^1.0.0' but will load
+451 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/chalk,
+451 warn unmet dependency which is version 0.5.1
+452 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-build/node_modules/decompress/node_modules/decompress-unzip/node_modules/strip-dirs/node_modules/sum-up requires chalk@'^1.0.0' but will load
+452 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/chalk,
+452 warn unmet dependency which is version 0.5.1
+453 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-build/node_modules/download/node_modules/decompress-tar requires through2@'^0.6.1' but will load
+453 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-build/node_modules/download/node_modules/through2,
+453 warn unmet dependency which is version 2.0.0
+454 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-build/node_modules/download/node_modules/decompress-tarbz2 requires through2@'^0.6.1' but will load
+454 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-build/node_modules/download/node_modules/through2,
+454 warn unmet dependency which is version 2.0.0
+455 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-build/node_modules/download/node_modules/decompress-targz requires through2@'^0.6.1' but will load
+455 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-build/node_modules/download/node_modules/through2,
+455 warn unmet dependency which is version 2.0.0
+456 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-build/node_modules/download/node_modules/decompress-unzip requires through2@'^0.6.1' but will load
+456 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-build/node_modules/download/node_modules/through2,
+456 warn unmet dependency which is version 2.0.0
+457 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-build/node_modules/download/node_modules/gulp-decompress/node_modules/archive-type/node_modules/file-type requires meow@'^3.3.0' but will load
+457 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/meow,
+457 warn unmet dependency which is version 2.1.0
+458 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress-tar requires through2@'^0.6.1' but will load
+458 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/download/node_modules/through2,
+458 warn unmet dependency which is version 2.0.0
+459 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress-tarbz2 requires through2@'^0.6.1' but will load
+459 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/download/node_modules/through2,
+459 warn unmet dependency which is version 2.0.0
+460 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress-targz requires through2@'^0.6.1' but will load
+460 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/download/node_modules/through2,
+460 warn unmet dependency which is version 2.0.0
+461 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress-unzip requires through2@'^0.6.1' but will load
+461 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/download/node_modules/through2,
+461 warn unmet dependency which is version 2.0.0
+462 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/decompress requires get-stdin@'^4.0.1' but will load
+462 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/get-stdin,
+462 warn unmet dependency which is version 3.0.2
+463 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/decompress requires meow@'^3.0.0' but will load
+463 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/meow,
+463 warn unmet dependency which is version 2.1.0
+464 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/decompress requires vinyl-fs@'^1.0.0' but will load
+464 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/vinyl-fs,
+464 warn unmet dependency which is version 0.3.13
+465 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/archive-type/node_modules/file-type requires meow@'^3.3.0' but will load
+465 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/meow,
+465 warn unmet dependency which is version 2.1.0
+466 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/decompress/node_modules/decompress-tar/node_modules/strip-dirs requires chalk@'^1.0.0' but will load
+466 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/chalk,
+466 warn unmet dependency which is version 0.5.1
+467 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/decompress/node_modules/decompress-tar/node_modules/strip-dirs requires get-stdin@'^4.0.1' but will load
+467 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/get-stdin,
+467 warn unmet dependency which is version 3.0.2
+468 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/decompress/node_modules/decompress-tar/node_modules/strip-dirs/node_modules/sum-up requires chalk@'^1.0.0' but will load
+468 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/chalk,
+468 warn unmet dependency which is version 0.5.1
+469 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/decompress/node_modules/decompress-tarbz2/node_modules/strip-dirs requires chalk@'^1.0.0' but will load
+469 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/chalk,
+469 warn unmet dependency which is version 0.5.1
+470 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/decompress/node_modules/decompress-tarbz2/node_modules/strip-dirs requires get-stdin@'^4.0.1' but will load
+470 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/get-stdin,
+470 warn unmet dependency which is version 3.0.2
+471 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/decompress/node_modules/decompress-tarbz2/node_modules/strip-dirs/node_modules/sum-up requires chalk@'^1.0.0' but will load
+471 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/chalk,
+471 warn unmet dependency which is version 0.5.1
+472 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/decompress/node_modules/decompress-targz/node_modules/strip-dirs requires chalk@'^1.0.0' but will load
+472 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/chalk,
+472 warn unmet dependency which is version 0.5.1
+473 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/decompress/node_modules/decompress-targz/node_modules/strip-dirs requires get-stdin@'^4.0.1' but will load
+473 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/get-stdin,
+473 warn unmet dependency which is version 3.0.2
+474 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/decompress/node_modules/decompress-targz/node_modules/strip-dirs/node_modules/sum-up requires chalk@'^1.0.0' but will load
+474 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/chalk,
+474 warn unmet dependency which is version 0.5.1
+475 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/decompress/node_modules/decompress-unzip/node_modules/strip-dirs requires chalk@'^1.0.0' but will load
+475 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/chalk,
+475 warn unmet dependency which is version 0.5.1
+476 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/decompress/node_modules/decompress-unzip/node_modules/strip-dirs requires get-stdin@'^4.0.1' but will load
+476 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/get-stdin,
+476 warn unmet dependency which is version 3.0.2
+477 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/download/node_modules/gulp-decompress/node_modules/decompress/node_modules/decompress-unzip/node_modules/strip-dirs/node_modules/sum-up requires chalk@'^1.0.0' but will load
+477 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/chalk,
+477 warn unmet dependency which is version 0.5.1
+478 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/pretty-bytes/node_modules/meow requires object-assign@'^3.0.0' but will load
+478 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/object-assign,
+478 warn unmet dependency which is version 1.0.0
+479 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/pretty-bytes/node_modules/meow/node_modules/indent-string requires get-stdin@'^4.0.1' but will load
+479 warn unmet dependency /Users/marsha/Dev/shafi/zenefitsProjects/node_modules/gulp-imagemin/node_modules/pretty-bytes/node_modules/get-stdin,
+479 warn unmet dependency which is version 1.0.0
+480 verbose stack Error: The package phantomjs does not satisfy its siblings' peerDependencies requirements!
+480 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+480 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:267:7
+480 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+480 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+480 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+480 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+480 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+480 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+480 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+480 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+481 verbose cwd /Users/marsha/Dev/shafi/zenefitsProjects
+482 error Darwin 14.5.0
+483 error argv "node" "/usr/local/bin/npm" "install"
+484 error node v0.12.7
+485 error npm  v2.12.1
+486 error code EPEERINVALID
+487 error peerinvalid The package phantomjs does not satisfy its siblings' peerDependencies requirements!
+487 error peerinvalid Peer mocha-phantomjs@3.6.0 wants phantomjs@1.9.1 - 1.9.7-15
+488 verbose exit [ 1, true ]

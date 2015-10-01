@@ -1,0 +1,86 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <title>Gulp Browserify Backbone Template</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/app.css" rel="stylesheet" type="text/css" />
+    <link href="css/font-awesome.css" rel="stylesheet" type="text/css" />
+    <link href="css/jquery.dataTables.css" rel="stylesheet" type="text/css" />
+    <link href="css/dataTables.tableTools.css" rel="stylesheet" type="text/css" />
+    <link href="css/dataTables.fixedColumns.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap-select.css" rel="stylesheet" type="text/css" />
+    <link href="css/animate.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/datepicker.css" rel="stylesheet" type="text/css" />
+    <link href="css/datepicker3.css" rel="stylesheet" type="text/css" />
+
+
+    <!-- open sans font -->
+    <!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css' /> -->
+
+    <!-- lato font -->
+    <!-- <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css' /> -->
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+
+<body>
+    <!-- nav container -->
+    <div id="nav">
+
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapser">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img src=""></a>
+                </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </div>
+
+    <!-- main container -->
+    <div class="content">
+        <!-- module title -->
+        <div id="msgContainer">
+            <div id="msgText">Authenticating <i class="fa fa-spinner fa-spin"></i></div>
+        </div>
+        <!-- // module title -->
+        <div id="viewContainer">
+            <div id="contentContainer"></div>
+            <div id="modalContainer"></div>
+        </div>
+    </div>
+    <!-- // main container -->
+    
+
+    <script>
+        function handleClientLoad() {
+            window.initMain();
+        }
+                                
+    </script>
+
+    <script src="js/vendor/libs.js"></script>
+    <script src="js/vendor.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://apis.google.com/js/client.js?onload=handleClientLoad"></script>
+
+</body>
+</html>
